@@ -22,6 +22,13 @@ Dado o banco de dados de um sistema bibliotecário -- representado pelo script a
 3. Selecionar os empréstimos em aberto junto do nome dos usuários que fizeram tais empréstimos
 4. Selecionar os nomes dos livros, usuários e bibliotecas para cada um dos empréstimos concluídos
 
+#### Consultas agregadas
+
+1. Selecionar a quantidade de livros cadastrados
+2. Selecionar a quantidade de exemplares por livro, ordenados pela quantidade de exemplares
+3. Selecionar o número de empréstimos feito por usuário, ordenados pela quantidade de empréstimos
+4. Selecionar os livros com pelo menos 3 exemplares
+
 
 ```
 CREATE TABLE `bibliotecas` (
