@@ -6,7 +6,7 @@ JOIN exemplares ON livros.id = exemplares.livros_id;
 ##### Selecionar os exemplares (nome, edição e biblioteca) dos livros da Computação #####
 
 SELECT livros.nome, exemplares.edicao, bibliotecas.nome FROM livros
-JOIN exemplares ON  livros.ID = exemplares.livros_id
+JOIN exemplares ON  livros.id = exemplares.livros_id
 JOIN bibliotecas ON exemplares.bibliotecas_id = bibliotecas.id
 WHERE livros.tema LIKE 'Computação';
 
