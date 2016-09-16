@@ -1,0 +1,1 @@
+SELECT livros.nome, exemplares.edicao, bibliotecas.nome FROM livros, exemplares, bibliotecas WHERE livros.tema LIKE '%Computação%' AND bibliotecas.id = exemplares.bibliotecas_id AND livros.id = exemplares.livros_id;
