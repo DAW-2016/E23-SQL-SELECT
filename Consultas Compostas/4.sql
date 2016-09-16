@@ -1,0 +1,1 @@
+SELECT usuarios.nome, livros.nome, emprestimos.data_emprestimo, bibliotecas.nome FROM usuarios, livros, emprestimos,bibliotecas, exemplares WHERE emprestimos.exemplares_id = exemplares.id AND emprestimos.usuarios_id = usuarios.id AND livros.id = exemplares.livros_id AND emprestimos.data_devolucao = NULL AND emprestimos.bibliotecas_id = bibliotecas.id;
